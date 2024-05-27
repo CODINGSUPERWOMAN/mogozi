@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mogozi-Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+           <a href="index.html"><img src="images/mogozilogo.png" class="logo"></a>
+            <ul>
+                <li><img src="images/notification.png" alt="notification"></li>
+                <li><img src="images/inbox.png" alt="inbox"></li>
+                <li><img src="images/video.png" alt="video"></li>
+            </ul>
+        </div> 
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="search">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.jpg" alt="profile-pic">
+            </div>
+        </div> 
+
+        <! ----------setting-menu----------- -->
+
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.jpg" >
+                    <div>
+                        <p>Wendy Machete</p>
+                    <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png" >
+                    <div>
+                        <p>Give Feedback</p>
+                    <a href="#">Help us to improve the new design.</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout<img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+        </div>
+       
+    </nav> 
+    <div class="container">
+        <! ----------left-sidebar----------- -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img width="35" height="35" src="https://img.icons8.com/sf-black-filled/128/de0667/news.png" alt="news"/>Latest News</a>
+                <a href="#"><img width="35" height="35" src="https://img.icons8.com/ios-filled/50/de0667/friends.png" alt="friends">Friend</a>
+                <a href="#"><img width="35" height="35" src="https://img.icons8.com/ios-filled/50/de0667/groups.png" alt="group">Group</a>
+                <a href="#"><img  width="35" height="35" src="https://img.icons8.com/ios-filled/50/de0667/online-shop.png" alt="marketplace">Marketplace</a>
+                <a href="#"><img  width="35" height="35" src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/de0667/external-Watch-Video-webinar-smashingstocks-mixed-smashing-stocks-2.png" alt="watch">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.jpeg">Thaidzo dza Vhafumakadzi</a>
+                <a href="#"><img src="images/shortcut-2.jpeg">Dembe chemical solutions</a>
+                <a href="#"><img src="images/shortcut-3.png">standard bank</a>
+                <a href="#"><img src="images/shortcut-4.png">NSFAS</a>
+            </div>
+        </div>
+        <! ----------main-content----------- -->
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    
+                    <img width="35" height="35" src="https://img.icons8.com/ios-filled/50/de0667/plus.png" alt="plus"/>
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-1.png" >
+                    <p>Allison</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-2.png" >
+                    <p>Jackson</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-3.png" >
+                    <p>Samona</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-4.png" >
+                    <p>John Doe</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.jpg" >
+                    </div>
+                    <div>
+                        <p>Wendy Machete</p>
+                        <small>Public <img width="24" height="15" src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/24/de0667/external-ellipsis-v-interface-royyan-wijaya-detailed-outline-royyan-wijaya.png" alt="external-ellipsis-v-interface-royyan-wijaya-detailed-outline-royyan-wijaya"/></small>
+                    </div>
+
+                </div>
+               
+                <div class="post-input-container">
+                    <textarea rows="3"  placeholder="What is on your mind"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png" alt="video"> Live Video</a>
+                        <a href="#"><img src="images/photo.png" alt="photo"> Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png" alt="felling"> feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.jpg" >
+                    <div>
+                        <p>Wendy Machete</p>
+                        <span>June 24 2023, 13:40 pm</span>
+                    </div>
+                    </div>
+                    <a href="#"><img width="24" height="24" src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/24/de0667/external-ellipsis-v-interface-royyan-wijaya-detailed-outline-royyan-wijaya.png" alt="external-ellipsis-v-interface-royyan-wijaya-detailed-outline-royyan-wijaya"/></a>
+                </div>
+                <p class="post-text"><span> @Mafhungo</span>Tladi precious🙄🙄🤣🤣🤣 <a href="#"> #Mogozi</a> <a href="#">#YouTubeChannel</a> </p>
+                <img src="images/feed-1.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div> <img src="https://img.icons8.com/?size=100&id=33479&format=png&color=F25081" >120</div>
+                        <div> <img src="images/comments.png" >45</div>
+                        <div> <img src="images/share.png" >200</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.jpg" alt="profile-pic"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.jpg" >
+                    
+                    <div>
+                        <p>Wendy Machete</p>
+                        <span>June 24 2023, 13:40 pm</span>
+                       
+                    </div>
+                    
+                    </div>
+                    <a href="#"><img width="24" height="24" src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/24/de0667/external-ellipsis-v-interface-royyan-wijaya-detailed-outline-royyan-wijaya.png" alt="external-ellipsis-v-interface-royyan-wijaya-detailed-outline-royyan-wijaya"/></a>
+                </div>
+                <p class="post-text">Yesterday at work <span> @Mafhungo </span> <a href="#"> #ANCFINALRALLY</a> <a href="#">#YouTubeChannel</a> </p>
+                <img src="images/feed-2.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div> <img src="https://img.icons8.com/?size=100&id=33479&format=png&color=F25081" >120k</div>
+                        <div> <img src="images/comments.png" >45k</div>
+                        <div> <img src="images/share.png" >20k</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.jpg" alt="profile-pic"><img width="24" height="24" src="https://img.icons8.com/material-rounded/24/de0667/sort-down.png" alt="sort-down"/>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.jpg" >
+                    
+                    <div>
+                        <p>Wendy Machete</p>
+                        <span>June 24 2023, 13:40 pm</span>
+                       
+                    </div>
+                    
+                    </div>
+                    <a href="#"><img width="24" height="24" src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/24/de0667/external-ellipsis-v-interface-royyan-wijaya-detailed-outline-royyan-wijaya.png" alt="external-ellipsis-v-interface-royyan-wijaya-detailed-outline-royyan-wijaya"/></a>
+                </div>
+                <p class="post-text">Like and share this video with friends, tag <span> @DINNER </span>facebook page on your post. Ask your doubts in the comments <a href="#"> #FamilyLife</a> <a href="#">#YouTubeChannel</a> </p>
+                <img src="images/feed-3.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div> <img src="https://img.icons8.com/?size=100&id=33479&format=png&color=F25081" >12k</div>
+                        <div> <img src="images/comments.png" >450</div>
+                        <div> <img src="images/share.png" >2k</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.jpg" alt="profile-pic"><img width="24" height="24" src="https://img.icons8.com/material-rounded/24/de0667/sort-down.png" alt="sort-down"/>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.jpg" >
+                    
+                    <div>
+                        <p>Wendy Machete</p>
+                        <span>June 24 2023, 13:40 pm</span>
+                       
+                    </div>
+                    
+                    </div>
+                    <a href="#"><img width="24" height="24" src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/24/de0667/external-ellipsis-v-interface-royyan-wijaya-detailed-outline-royyan-wijaya.png" alt="external-ellipsis-v-interface-royyan-wijaya-detailed-outline-royyan-wijaya"/></i></a>
+                </div>
+                <p class="post-text">Like and share this video with friends, tag <span> @Mafhungo </span>facebook page on your post. Ask your doubts in the comments <a href="#"> #Cakes</a> <a href="#">#YouTubeChannel</a> </p>
+                <img src="images/feed-4.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div> <img src="https://img.icons8.com/?size=100&id=33479&format=png&color=F25081" >12k</div>
+                        <div> <img src="images/comments.png" >5</div>
+                        <div> <img src="images/share.png" >200</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.jpg" alt="profile-pic"><img width="24" height="24" src="https://img.icons8.com/material-rounded/24/de0667/sort-down.png" alt="sort-down"/>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.jpg" >
+                    
+                    <div>
+                        <p>Wendy Machete</p>
+                        <span>June 24 2023, 13:40 pm</span>
+                       
+                    </div>
+                    
+                    </div>
+                    <a href="#"><img width="24" height="24" src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/24/de0667/external-ellipsis-v-interface-royyan-wijaya-detailed-outline-royyan-wijaya.png" alt="external-ellipsis-v-interface-royyan-wijaya-detailed-outline-royyan-wijaya"/></a>
+                </div>
+                <p class="post-text">Mahalwani ri vhona zwithu <span> @mafhungo </span>facebook page on your post. Ask your doubts in the comments <a href="#"> #Legs</a> <a href="#">#YouTubeChannel</a> </p>
+                <img src="images/feed-5.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div> <img src="https://img.icons8.com/?size=100&id=33479&format=png&color=F25081" >1k</div>
+                        <div> <img src="images/comments.png" >405</div>
+                        <div> <img src="images/share.png" >102</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.jpg" alt="profile-pic"><img width="24" height="24" src="https://img.icons8.com/material-rounded/24/de0667/sort-down.png" alt="sort-down"/>
+                    </div>
+                </div>
+            </div>
+           <button type="button" class="load-more-btn">Load More</button>
+        </div>
+
+
+
+
+
+
+
+
+
+        <! ----------right-sidebar----------- -->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>YOUTH CONFERENCE</h4>
+                    <p>AFM PRETORIA</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>june</span>
+                </div>
+                <div class="right-event">
+                    <h4>Financial Fitness</h4>
+                    <p>CD offices</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar-ads" alt="advertisement">
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png" alt="member-1">
+                </div>
+                <p>Alison Mina</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png" alt="member-2">
+                </div>
+                <p>Jackson Aston</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png" alt="member-3">
+                </div>
+                <p>Samona Rose</p>
+            </div>
+           
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright 2024 - Mafanedza Wandy Matshete</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
